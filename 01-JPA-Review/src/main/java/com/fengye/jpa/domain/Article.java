@@ -3,6 +3,7 @@ package com.fengye.jpa.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -14,8 +15,6 @@ import java.util.Date;
  * @Date: 2021/5/14 11:16
  */
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
 //@Table建立实体类和数据表的关系  name表示表名称
 //使用@Table注解建立实体类和数据表之间的对应关系
 @Table(name = "article")
